@@ -11,6 +11,11 @@
 		8EF8F9F72D993BD400809E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F9F62D993BD400809E3A /* ContentView.swift */; };
 		8EF8F9F92D993BD500809E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F9F82D993BD500809E3A /* Assets.xcassets */; };
 		8EF8F9FC2D993BD500809E3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F9FB2D993BD500809E3A /* Preview Assets.xcassets */; };
+		8EF8FA072D993C8500809E3A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA062D993C8500809E3A /* Color+Extension.swift */; };
+		8EF8FA092D993CC200809E3A /* ColorfulButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA082D993CC200809E3A /* ColorfulButtonView.swift */; };
+		8EF8FA0B2D993CE000809E3A /* RandomArcFromColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */; };
+		8EF8FA0D2D993CE400809E3A /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0C2D993CE400809E3A /* ArcView.swift */; };
+		8EF8FA0F2D993D1500809E3A /* TestColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8EF8F9F62D993BD400809E3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EF8F9F82D993BD500809E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF8F9FB2D993BD500809E3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EF8FA062D993C8500809E3A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8EF8FA082D993CC200809E3A /* ColorfulButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulButtonView.swift; sourceTree = "<group>"; };
+		8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomArcFromColorListView.swift; sourceTree = "<group>"; };
+		8EF8FA0C2D993CE400809E3A /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		8EF8F9F32D993BD400809E3A /* ChartsAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8EF8FA052D993C7200809E3A /* Extensions */,
+				8EF8FA042D993C6E00809E3A /* Model */,
+				8EF8FA032D993C6900809E3A /* ViewModel */,
+				8EF8FA022D993C6400809E3A /* View */,
 				8EF8F9F42D993BD400809E3A /* ChartsAppSwiftUIApp.swift */,
 				8EF8F9F62D993BD400809E3A /* ContentView.swift */,
 				8EF8F9F82D993BD500809E3A /* Assets.xcassets */,
@@ -65,6 +79,39 @@
 				8EF8F9FB2D993BD500809E3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EF8FA022D993C6400809E3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8FA082D993CC200809E3A /* ColorfulButtonView.swift */,
+				8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */,
+				8EF8FA0C2D993CE400809E3A /* ArcView.swift */,
+				8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EF8FA032D993C6900809E3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EF8FA042D993C6E00809E3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EF8FA052D993C7200809E3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8FA062D993C8500809E3A /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF8FA092D993CC200809E3A /* ColorfulButtonView.swift in Sources */,
+				8EF8FA0B2D993CE000809E3A /* RandomArcFromColorListView.swift in Sources */,
 				8EF8F9F72D993BD400809E3A /* ContentView.swift in Sources */,
+				8EF8FA0D2D993CE400809E3A /* ArcView.swift in Sources */,
+				8EF8FA0F2D993D1500809E3A /* TestColorButtonView.swift in Sources */,
+				8EF8FA072D993C8500809E3A /* Color+Extension.swift in Sources */,
 				8EF8F9F52D993BD400809E3A /* ChartsAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
