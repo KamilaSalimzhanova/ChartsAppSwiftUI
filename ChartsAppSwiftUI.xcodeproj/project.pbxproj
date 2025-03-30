@@ -16,6 +16,7 @@
 		8EF8FA0B2D993CE000809E3A /* RandomArcFromColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */; };
 		8EF8FA0D2D993CE400809E3A /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0C2D993CE400809E3A /* ArcView.swift */; };
 		8EF8FA0F2D993D1500809E3A /* TestColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */; };
+		8EF8FA112D995A9700809E3A /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8FA102D995A9700809E3A /* ChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomArcFromColorListView.swift; sourceTree = "<group>"; };
 		8EF8FA0C2D993CE400809E3A /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorButtonView.swift; sourceTree = "<group>"; };
+		8EF8FA102D995A9700809E3A /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				8EF8FA0A2D993CE000809E3A /* RandomArcFromColorListView.swift */,
 				8EF8FA0C2D993CE400809E3A /* ArcView.swift */,
 				8EF8FA0E2D993D1500809E3A /* TestColorButtonView.swift */,
+				8EF8FA102D995A9700809E3A /* ChartsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				8EF8FA092D993CC200809E3A /* ColorfulButtonView.swift in Sources */,
 				8EF8FA0B2D993CE000809E3A /* RandomArcFromColorListView.swift in Sources */,
 				8EF8F9F72D993BD400809E3A /* ContentView.swift in Sources */,
+				8EF8FA112D995A9700809E3A /* ChartsView.swift in Sources */,
 				8EF8FA0D2D993CE400809E3A /* ArcView.swift in Sources */,
 				8EF8FA0F2D993D1500809E3A /* TestColorButtonView.swift in Sources */,
 				8EF8FA072D993C8500809E3A /* Color+Extension.swift in Sources */,
