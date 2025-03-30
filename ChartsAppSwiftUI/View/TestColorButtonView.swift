@@ -45,6 +45,16 @@ struct TestColorButtonView: View {
             .onTapGesture {
                 withAnimation { tilt = 0 }
             }
+            .navigationTitle("Bar chart")
+            .toolbar {
+                ToolbarItem(placement: .bottomBar) {
+                    ColorfulButtonView(colors: $colors, dim: 50, offsetVal: 10) {
+                        withAnimation {
+                            rotateBar.toggle()
+                        }
+                    }
+                }
+            }
         }
     }
 }
